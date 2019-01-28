@@ -12,7 +12,7 @@ body { background-image: url('../images/subtlenet2.png'); font-family: "Helvetic
 a { color: #45849a; text-decoration: none; line-height: inherit; }
 
 /* beliana a:hover { color: #2795b6; }*/
-a:hover { color: #2795b6; }
+a:hover { color: #ffa587; }
 
 a:focus { color: #2ba6cb; outline: none; }
 
