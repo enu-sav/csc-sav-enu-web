@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>Encyklopedický ústav</title>
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="javascripts/include_html.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="row">
+     <div w3-include-html="includes/header.html"></div>
+  </div>
+  
+  <div class="row">
+    <div class="twelve columns">
+      <div class="row">
+        <div class="three columns">
+          <div w3-include-html="includes/navigation.html"></div>
+        </div>
+        <div class="nine columns">
+	  <!-- zaciatok textu-->
+	  <h2>Čo je encyklopédia</h2>
+	  <p> Encyklopédia, lexikón alebo náučný slovník je dielo odbornej literatúry zhŕňajúce v abecednom usporiadaní základné poznatky jedného alebo všetkých vedných odborov s cieľom poskytnúť čo najširšiemu okruhu používateľov čo najzrozumiteľnejší výklad princípov, zákonov, pojmov, javov, reálií a súvislostí medzi nimi. Podľa toho, či spracúvajú poznatky jedného alebo všetkých vedných odborov, sa rozlišujú odborové (špecializované, monotematické) a všeobecné (univerzálne) encyklopédie. Osobitným druhom sú vlastivedné encyklopédie, kde je pri výbere spracúvaných reálií určujúcim kritériom teritoriálno–etnický princíp.</p>
+
+	  <p>Zákl. informačnou jednotkou encyklopédie je encyklopedické heslo — komplex logicky usporiadaných informácií vyjadrujúci určité, typom encyklopédie a významom pojmu limitované kvantum teoretických alebo praktických poznatkov o určitej objektívnej skutočnosti získaných analyticko–syntetickou metódou a vyjadrených osobitným lexikografickým štýlom. Od ostatného textu je graficky oddelené. Je obsahovo i formálne jednotne konštruované, zvyčajne sa skladá zo záhlavia (vysádzaného polotučne), z definície a výkladu. Pri jeho tvorbe sa dodržiava logické poradie základných aspektov, z ktorých sa opisujú alebo vysvetľujú fakty, javy ap., a vopred stanovený súbor pravopisných, štylistických a typografických prostriedkov. Text hesla si vyžaduje tzv. encyklopedický štýl s cieľom podať na minimálnom priestore maximum informácií, čo sa dosahuje maximálnou stručnosťou, vecnosťou a jednoduchosťou pri výbere výrazových prostriedkov, ako aj presnosťou podávaných informácií. Údaje sú dopĺňané tabuľkami, grafmi, štatistikami a ilustráciami. Osobitným druhom encyklopedického hesla je tzv. odkazové heslo, ktoré neposkytuje výklad pojmu, ale formou odkazu (—>) upozorňuje na heslo, v ktorom sa informácia nachádza.</p>
+
+	  <p>Každá encyklopédia je koncipovaná ako ucelený systém informácií. V horizontálnej rovine je to logická previazanosť jednotlivých hesiel v rámci jedného vedného odboru, vo vertikálnej rovine previazanosť všetkých hesiel tak, aby encyklopedické dielo tvorilo uzavretý informačný okruh. To znamená, že každý pojem, ktorý sa vyskytne na ktoromkoľvek mieste v texte, by mal mať svoje samostatné heslo s výkladom, resp. odkazom označené heslo, v ktorom sa informácia nachádza. Encyklopédia tak svojou štruktúrou vychádzajúcou z metodologickej zásady vzájomnej obsahovej prepojenosti jednotlivých hesiel umožňuje rýchlu orientáciu nielen v rámci daného vedného odboru, ale aj v medziodborových súvislostiach. Usiluje sa byť syntézou informácií, masovým nositeľom základných vedeckých poznatkov. Jej tri zákl. funkcie (informačná, popularizačná, vzdelávacia) ju preurčili na to, aby sa stala základnou príručkou určenou na rýchle vyhľadávanie konkrétneho údaja alebo poznatku.</p>
+
+	  <p>V súčasných encyklopédiách sú heslá zoraďované abecedne, čiže slovníkovo (podľa poradia písmen abecedy), na rozdiel od systémovo zoradených hesiel (podľa odvetví vied alebo podľa činností) v tzv. dielach encyklopedického charakteru.</p>
+	  <!-- koniec textu-->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+      <div w3-include-html="includes/footer.html"></div>
+    </div>
+  </div>
+  <script> includeHTML(); </script>
+</body>

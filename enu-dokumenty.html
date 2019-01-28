@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>Encyklopedický ústav</title>
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="javascripts/include_html.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="row">
+     <div w3-include-html="includes/header.html"></div>
+  </div>
+  
+  <div class="row">
+    <div class="twelve columns">
+
+      <div class="row">
+        <div class="three columns">
+          <div w3-include-html="includes/navigation.html" class="documents"></div>
+        </div>
+        <div class="nine columns">
+	  <!-- zaciatok textu-->
+	  <h2>Dokumenty</h2>
+	  <p> </p>
+	  <h3>Povinne zverejňované zmluvy, faktúry a objednávky</h3>
+             <!--p><em>Encyklopedický ústav SAV ako povinná osoba v zmysle zákona č. 546/2010 Z. z. zverejňuje týmto:</em></p-->
+	     <p><a href="http://www.crz.gov.sk" target="_blank">Zmluvy</a></p>
+	<p><a href="http://www.sav.sk/index.php?lang=sk&amp;charset=&amp;doc=ins-org-ins&amp;institute_no=10&amp;action=contracts&amp;type=6" target="_blank">Zákazky s nízkou hodnotou</a></p>
+<p><a href="http://www.sav.sk/index.php?lang=sk&amp;charset=&amp;doc=ins-org-ins&amp;institute_no=10&amp;action=contracts&amp;type=3"  target="_blank"  >Faktúry</a></p>
+<p><a href="http://www.sav.sk/index.php?lang=sk&amp;charset=&amp;doc=ins-org-ins&amp;institute_no=10&amp;action=contracts&amp;type=2"  target="_blank" >Objednávky</a></p>
+	  <h3>Ďalšie dokumenty</h3>
+	  <p><a target="_blank" href="images/zriadovacialistina2.pdf">Zriaďovacia listina CSČ SAV</a></p>
+	  <p><a target="_blank" href="images/Organizacny-poriadok_EnU-SAV.pdf">Organizačný poriadok CSČ SAV, EnÚ</a></p>
+	  <p><a target="_blank" href="images/ENCYSAV_Annual_Report_2017.pdf">Výročná správa</a></p>
+	  <p><a target="_blank" href="http://www.encyclopaedia.sk/index.php?option=com_content&view=article&id=17&Itemid=13</a></p>
+	  
+	  <!-- koniec textu-->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+      <div w3-include-html="includes/footer.html"></div>
+    </div>
+  </div>
+  <script> includeHTML(); </script>
+</body>

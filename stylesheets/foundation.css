@@ -7,8 +7,11 @@ html { font-size: 62.5%; }
 body { background-image: url('../images/subtlenet2.png'); font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 14px; font-size: 1.4rem; line-height: 1; color: #222222; position: relative; -webkit-font-smoothing: antialiased; }
 
 /* Links ---------------------- */
-a { color: #2ba6cb; text-decoration: none; line-height: inherit; }
+/* beliana a { color: #2ba6cb; text-decoration: none; line-height: inherit; }*/
+/* a { color: #ffa587; text-decoration: none; line-height: inherit; }*/
+a { color: #45849a; text-decoration: none; line-height: inherit; }
 
+/* beliana a:hover { color: #2795b6; }*/
 a:hover { color: #2795b6; }
 
 a:focus { color: #2ba6cb; outline: none; }
@@ -39,7 +42,7 @@ p a, p a:visited { line-height: inherit; }
 #map_canvas object { max-width: none; }
 
 /* Base Type Styles Using Modular Scale ---------------------- */
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th, td { margin: 0; padding: 0; font-size: 14px; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, pre, form, fieldset, p, blockquote, th, td { margin: 0; padding: 0; font-size: 14px; }
 
 p { font-size: 14px; line-height: 1.6; margin-bottom: 17px; }
 p.lead { font-size: 17.5px; line-height: 1.6; margin-bottom: 17px; }
@@ -48,22 +51,20 @@ p img.right { margin: 17px; margin-right: 0; }
 
 aside p { font-size: 13px; line-height: 1.35; font-style: italic; }
 
-h1, h2, h3, h4, h5, h6 { text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #888; line-height: 0; }
+h1, h2, h3 { text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
+h1 small, h2 small, h3 small { font-size: 60%; color: #888; line-height: 0; }
 
-h1 { font-size: 44px; }
+/* beliana */
+h1 { font-size: 27px; font-weight: normal; }
 
-h2 { font-size: 37px; }
+/* beliana */
+h2 { font-size: 23px; font-weight: normal;}
 
-h3 { font-size: 27px; }
+/* beliana */
+h3 { font-size: 17px; font-weight: normal;}
 
-h4 { font-size: 23px; }
-
-h5 { font-size: 17px; }
-
-h6 { font-size: 14px; }
-
-hr { border: solid #ddd; border-width: 5px 0 0; clear: both; margin: 22px 0 21px; height: 0; }
+/* beliana hr { border: solid #ddd; border-width: 5px 0 0; clear: both; margin: 22px 0 21px; height: 0; }*/
+hr { border: solid #ddd; border-width: 5px 0 0; clear: both; margin: 0px 0 21px; height: 0; }
 
 .subheader { line-height: 1.3; color: #777; font-weight: 300; margin-bottom: 17px; }
 
@@ -465,7 +466,7 @@ table { background: #fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; b
 
 table thead, table tfoot { background: #f5f5f5; }
 
-table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { font-size: 12px; font-size: 1.2rem; line-height: 18px; text-align: left; }
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { font-size: 14px; font-size: 1.4rem; line-height: 18px; text-align: left; }
 
 table thead tr th, table tfoot tr td { padding: 8px 10px 9px; font-size: 14px; font-size: 1.4rem; font-weight: bold; color: #222; }
 
@@ -650,9 +651,51 @@ ul.tabs-content.contained.vertical > li { border-width: 1px 1px 1px 1px; }
 .nav-bar > li { float: left; display: block; position: relative; padding: 0; margin: 0; border: 1px solid #333333; border-right: none; line-height: 38px; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; }
 .nav-bar > li:first-child { -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
 .nav-bar > li:last-child { border-right: solid 1px #333333; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); }
+/*
 .nav-bar > li.active { background: #2ba6cb; border-color: #2284a1; }
 .nav-bar > li.active > a { color: white; cursor: default; }
 .nav-bar > li.active:hover { background: #2ba6cb; cursor: default; }
+*/
+/* beliana specific */
+div.home > .side-nav > li.home { background: #2ba6cb; border-color: #2284a1; }
+div.home > .side-nav > li.home > a { color: white; cursor: default; }
+div.home > .side-nav > li.home:hover { background: #2ba6cb; cursor: default; }
+div.web > .side-nav > li.web { background: #2ba6cb; border-color: #2284a1; }
+div.web > .side-nav > li.web > a { color: white; cursor: default; }
+div.web > .side-nav > li.web:hover { background: #2ba6cb; cursor: default; }
+div.rada > .side-nav > li.rada { background: #2ba6cb; border-color: #2284a1; }
+div.rada > .side-nav > li.rada > a { color: white; cursor: default; }
+div.rada > .side-nav > li.rada:hover { background: #2ba6cb; cursor: default; }
+div.history > .side-nav > li.history { background: #2ba6cb; border-color: #2284a1; }
+div.history > .side-nav > li.history > a { color: white; cursor: default; }
+div.history > .side-nav > li.history:hover { background: #2ba6cb; cursor: default; }
+div.beliana > .side-nav > li.beliana { background: #2ba6cb; border-color: #2284a1; }
+div.beliana > .side-nav > li.beliana > a { color: white; cursor: default; }
+div.beliana > .side-nav > li.beliana:hover { background: #2ba6cb; cursor: default; }
+div.enu > .side-nav > li.enu { background: #2ba6cb; border-color: #2284a1; }
+div.enu > .side-nav > li.enu > a { color: white; cursor: default; }
+div.enu > .side-nav > li.enu:hover { background: #2ba6cb; cursor: default; }
+div.ency > .side-nav > li.ency { background: #2ba6cb; border-color: #2284a1; }
+div.ency > .side-nav > li.ency > a { color: white; cursor: default; }
+div.ency > .side-nav > li.ency:hover { background: #2ba6cb; cursor: default; }
+div.vydane > .side-nav > li.vydane { background: #2ba6cb; border-color: #2284a1; }
+div.vydane > .side-nav > li.vydane > a { color: white; cursor: default; }
+div.vydane > .side-nav > li.vydane:hover { background: #2ba6cb; cursor: default; }
+div.documents > .side-nav > li.documents { background: #2ba6cb; border-color: #2284a1; }
+div.documents > .side-nav > li.documents > a { color: white; cursor: default; }
+div.documents > .side-nav > li.documents:hover { background: #2ba6cb; cursor: default; }
+div.kontakty > .side-nav > li.kontakty { background: #2ba6cb; border-color: #2284a1; }
+div.kontakty > .side-nav > li.kontakty > a { color: white; cursor: default; }
+div.kontakty > .side-nav > li.kontakty:hover { background: #2ba6cb; cursor: default; }
+/*
+nav.home li.home, nav.beliana a.beliana, nav.enu a.enu, nav.ency a.ency, nav.vydane a.vydane, nav.kontakty a.kontakty, nav.doc a.doc {
+  color:#979797 !important;
+  color:black !important;
+  cursor: default;
+  font-weight: bold;
+}
+*/
+
 .nav-bar > li:hover { background: #333333; }
 .nav-bar > li a { color: #e6e6e6; }
 .nav-bar > li ul { margin-bottom: 0; }
@@ -897,3 +940,35 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
   .reveal-modal, .reveal-modal.small, .reveal-modal.medium, .reveal-modal.large, .reveal-modal.xlarge { width: 80%; top: 15px; left: 50%; margin-left: -40%; padding: 20px; height: auto; } }
   /* NOTES Close button entity is &#215;
  Example markup <div id="myModal" class="reveal-modal"> <h2>Awesome. I have it.</h2> <p class="lead">Your couch.  I it's mine.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p> <a class="close-reveal-modal">&#215;</a> </div> */
+
+
+@media screen and (min-width: 831px) {
+  p.hdr1 {
+    font-size: 30px;
+    /*font-weight: bold;*/
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 830px) {
+  p.hdr1 {
+    font-size: 20px;
+    /*font-weight: bold;*/
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  p.hdr1 {
+    font-size: 15px;
+    /*font-weight: bold;*/
+  }
+}
+
+/* chraneny email */
+adresa::after {
+    content: attr(data-domain);
+}
+adresa::before {
+    content: attr(data-user) "\0040";
+}

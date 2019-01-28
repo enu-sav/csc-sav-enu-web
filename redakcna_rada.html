@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>Encyklopedický ústav</title>
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="javascripts/include_html.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="row">
+     <div w3-include-html="includes/header.html"></div>
+  </div>
+  
+  <div class="row">
+    <div class="twelve columns">
+      <div class="row">
+        <div class="three columns">
+          <div w3-include-html="includes/navigation.html" class="rada"></div>
+        </div>
+        <div class="nine columns">
+	  <!-- zaciatok textu-->
+          <h2> Zoznam členov Redakčnej rady Encyclopaedie Beliany </h2>
+<p>(Redakčná rada bola nanovo kreovaná v marci 2017)</p>
+<p>prof. Ing. Štefan Luby, DrSc., Dr.h.c. – predseda <br />
+prof. ThDr. Juraj Bándy<br />
+prof. MUDr. Marián Bernadič, CSc.<br />
+JUDr. Milan Brňák<br />
+prof. Mgr. Adam Bžoch, CSc.<br />
+doc. PhDr. Dušan Čaplovič, DrSc.<br />
+doc. RNDr. Ivan Červeň, CSc.<br />
+prof. Ing.arch. Matúš Dulla, DrSc.<br />
+doc. Mgr. Martin Fronc, PhD.<br />
+prof. PhDr. Ivan Geráth, PhD.<br />
+prof. Ing. Božena Chovancová, PhD.<br />
+PhDr. Eva Kowalská, DrSc.<br />
+RNDr. František Mikloško<br />
+prof. PhDr. Slavomír Ondrejovič, DrSc.<br />
+prof. Mgr. Martin Slobodník, PhD.<br />
+PhDr. Peter Šalkovský, DrSc.<br />
+doc. JUDr. Jozef Vozár, CSc.<br />
+RNDr. Miroslav Morovics, CSc.<br />
+RNDr. Pavol Siman, PhD.</p>
+<p><a target="_blank" href="images/statut-rady.pdf">Štatút Redakčnej rady</a></p>
+	  <!-- koniec textu-->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+      <div w3-include-html="includes/footer.html"></div>
+    </div>
+  </div>
+  <script> includeHTML(); </script>
+</body>
