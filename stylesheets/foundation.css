@@ -478,7 +478,7 @@ table tbody tr.even, table tbody tr.alt { background: #f9f9f9; }
 
 table tbody tr:nth-child(even) { background: #f9f9f9; }
 
-table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
+table tbody tr td { color: #333; padding: 9px 10px; vertical-align: middle; border: none; }
 
 /* Microformats ---------------------- */
 ul.vcard { display: inline-block; margin: 0 0 12px 0; border: 1px solid #ddd; padding: 10px; }
@@ -972,3 +972,5 @@ adresa::after {
 adresa::before {
     content: attr(data-user) "\0040";
 }
+
+meno { font-weight: bold }
