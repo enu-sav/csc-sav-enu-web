@@ -2,3 +2,11 @@
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
 User-agent: *
+Disallow: stylesheets/
+Disallow: images/
+Disallow: includes/
+Disallow: javascripts/
+Disallow: MIT-LICENSE.txt
+Disallow: README.md
+Disallow: robots.txt
+Disallow: humans.txt
