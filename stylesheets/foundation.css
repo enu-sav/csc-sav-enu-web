@@ -9,12 +9,12 @@ body { background-image: url('../images/subtlenet2.png'); font-family: "Helvetic
 /* Links ---------------------- */
 /* beliana a { color: #2ba6cb; text-decoration: none; line-height: inherit; }*/
 /* a { color: #ffa587; text-decoration: none; line-height: inherit; }*/
-a { color: #45849a; text-decoration: none; line-height: inherit; }
+a { color: #8b2908; text-decoration: none; line-height: inherit; }
 
 /* beliana a:hover { color: #2795b6; }*/
 a:hover { color: #ffa587; }
 
-a:focus { color: #2ba6cb; outline: none; }
+a:focus { color: #ffa587; outline: none; }
 
 p a, p a:visited { line-height: inherit; }
 
@@ -657,36 +657,36 @@ ul.tabs-content.contained.vertical > li { border-width: 1px 1px 1px 1px; }
 .nav-bar > li.active:hover { background: #2ba6cb; cursor: default; }
 */
 /* beliana specific */
-div.home > .side-nav > li.home { background: #2ba6cb; border-color: #2284a1; }
-div.home > .side-nav > li.home > a { color: white; cursor: default; }
-div.home > .side-nav > li.home:hover { background: #2ba6cb; cursor: default; }
-div.web > .side-nav > li.web { background: #2ba6cb; border-color: #2284a1; }
-div.web > .side-nav > li.web > a { color: white; cursor: default; }
-div.web > .side-nav > li.web:hover { background: #2ba6cb; cursor: default; }
-div.rada > .side-nav > li.rada { background: #2ba6cb; border-color: #2284a1; }
-div.rada > .side-nav > li.rada > a { color: white; cursor: default; }
-div.rada > .side-nav > li.rada:hover { background: #2ba6cb; cursor: default; }
-div.history > .side-nav > li.history { background: #2ba6cb; border-color: #2284a1; }
-div.history > .side-nav > li.history > a { color: white; cursor: default; }
-div.history > .side-nav > li.history:hover { background: #2ba6cb; cursor: default; }
-div.beliana > .side-nav > li.beliana { background: #2ba6cb; border-color: #2284a1; }
-div.beliana > .side-nav > li.beliana > a { color: white; cursor: default; }
-div.beliana > .side-nav > li.beliana:hover { background: #2ba6cb; cursor: default; }
-div.enu > .side-nav > li.enu { background: #2ba6cb; border-color: #2284a1; }
-div.enu > .side-nav > li.enu > a { color: white; cursor: default; }
-div.enu > .side-nav > li.enu:hover { background: #2ba6cb; cursor: default; }
-div.ency > .side-nav > li.ency { background: #2ba6cb; border-color: #2284a1; }
-div.ency > .side-nav > li.ency > a { color: white; cursor: default; }
-div.ency > .side-nav > li.ency:hover { background: #2ba6cb; cursor: default; }
-div.vydane > .side-nav > li.vydane { background: #2ba6cb; border-color: #2284a1; }
-div.vydane > .side-nav > li.vydane > a { color: white; cursor: default; }
-div.vydane > .side-nav > li.vydane:hover { background: #2ba6cb; cursor: default; }
-div.documents > .side-nav > li.documents { background: #2ba6cb; border-color: #2284a1; }
-div.documents > .side-nav > li.documents > a { color: white; cursor: default; }
-div.documents > .side-nav > li.documents:hover { background: #2ba6cb; cursor: default; }
-div.kontakty > .side-nav > li.kontakty { background: #2ba6cb; border-color: #2284a1; }
-div.kontakty > .side-nav > li.kontakty > a { color: white; cursor: default; }
-div.kontakty > .side-nav > li.kontakty:hover { background: #2ba6cb; cursor: default; }
+div.home > .side-nav > li.home { background: #ffa587; border-color: #2284a1; }
+div.home > .side-nav > li.home > a { color: #8b2908; cursor: default; }
+div.home > .side-nav > li.home:hover { background: #ffa587; cursor: default; }
+div.web > .side-nav > li.web { background: #ffa587; border-color: #2284a1; }
+div.web > .side-nav > li.web > a { color: #8b2908; cursor: default; }
+div.web > .side-nav > li.web:hover { background: #ffa587; cursor: default; }
+div.rada > .side-nav > li.rada { background: #ffa587; border-color: #2284a1; }
+div.rada > .side-nav > li.rada > a { color: #8b2908; cursor: default; }
+div.rada > .side-nav > li.rada:hover { background: #ffa587; cursor: default; }
+div.history > .side-nav > li.history { background: #ffa587; border-color: #2284a1; }
+div.history > .side-nav > li.history > a { color: #8b2908; cursor: default; }
+div.history > .side-nav > li.history:hover { background: #ffa587; cursor: default; }
+div.beliana > .side-nav > li.beliana { background: #ffa587; border-color: #2284a1; }
+div.beliana > .side-nav > li.beliana > a { color: #8b2908; cursor: default; }
+div.beliana > .side-nav > li.beliana:hover { background: #ffa587; cursor: default; }
+div.enu > .side-nav > li.enu { background: #ffa587; border-color: #2284a1; }
+div.enu > .side-nav > li.enu > a { color: #8b2908; cursor: default; }
+div.enu > .side-nav > li.enu:hover { background: #ffa587; cursor: default; }
+div.ency > .side-nav > li.ency { background: #ffa587; border-color: #2284a1; }
+div.ency > .side-nav > li.ency > a { color: #8b2908; cursor: default; }
+div.ency > .side-nav > li.ency:hover { background: #ffa587; cursor: default; }
+div.vydane > .side-nav > li.vydane { background: #ffa587; border-color: #2284a1; }
+div.vydane > .side-nav > li.vydane > a { color: #8b2908; cursor: default; }
+div.vydane > .side-nav > li.vydane:hover { background: #ffa587; cursor: default; }
+div.documents > .side-nav > li.documents { background: #ffa587; border-color: #2284a1; }
+div.documents > .side-nav > li.documents > a { color: #8b2908; cursor: default; }
+div.documents > .side-nav > li.documents:hover { background: #ffa587; cursor: default; }
+div.kontakty > .side-nav > li.kontakty { background: #ffa587; border-color: #2284a1; }
+div.kontakty > .side-nav > li.kontakty > a { color: #8b2908; cursor: default; }
+div.kontakty > .side-nav > li.kontakty:hover { background: #ffa587; cursor: default; }
 /*
 nav.home li.home, nav.beliana a.beliana, nav.enu a.enu, nav.ency a.ency, nav.vydane a.vydane, nav.kontakty a.kontakty, nav.doc a.doc {
   color:#979797 !important;
@@ -942,8 +942,10 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
  Example markup <div id="myModal" class="reveal-modal"> <h2>Awesome. I have it.</h2> <p class="lead">Your couch.  I it's mine.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p> <a class="close-reveal-modal">&#215;</a> </div> */
 
 
+/* header */
 @media screen and (min-width: 831px) {
   p.hdr1 {
+    color:#8b2908;
     font-size: 30px;
     /*font-weight: bold;*/
   }
@@ -952,6 +954,7 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 830px) {
   p.hdr1 {
+    color:#8b2908;
     font-size: 20px;
     /*font-weight: bold;*/
   }
@@ -960,6 +963,7 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
   p.hdr1 {
+    color:#8b2908;
     font-size: 15px;
     /*font-weight: bold;*/
   }
