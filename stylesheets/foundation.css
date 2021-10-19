@@ -687,6 +687,9 @@ div.documents > .side-nav > li.documents:hover { background: #ffa587; cursor: de
 div.kontakty > .side-nav > li.kontakty { background: #ffa587; border-color: #2284a1; }
 div.kontakty > .side-nav > li.kontakty > a { color: #8b2908; cursor: default; }
 div.kontakty > .side-nav > li.kontakty:hover { background: #ffa587; cursor: default; }
+div.publikacie > .side-nav > li.publikacie { background: #ffa587; border-color: #2284a1; }
+div.publikacie > .side-nav > li.publikacie > a { color: #8b2908; cursor: default; }
+div.publikacie > .side-nav > li.publikacie:hover { background: #ffa587; cursor: default; }
 /*
 nav.home li.home, nav.beliana a.beliana, nav.enu a.enu, nav.ency a.ency, nav.vydane a.vydane, nav.kontakty a.kontakty, nav.doc a.doc {
   color:#979797 !important;
