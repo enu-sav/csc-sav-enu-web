@@ -690,6 +690,9 @@ div.kontakty > .side-nav > li.kontakty:hover { background: #ffa587; cursor: defa
 div.publikacie > .side-nav > li.publikacie { background: #ffa587; border-color: #2284a1; }
 div.publikacie > .side-nav > li.publikacie > a { color: #8b2908; cursor: default; }
 div.publikacie > .side-nav > li.publikacie:hover { background: #ffa587; cursor: default; }
+div.pracovnici > .side-nav > li.pracovnici { background: #ffa587; border-color: #2284a1; }
+div.pracovnici > .side-nav > li.pracovnici > a { color: #8b2908; cursor: default; }
+div.pracovnici > .side-nav > li.pracovnici:hover { background: #ffa587; cursor: default; }
 /*
 nav.home li.home, nav.beliana a.beliana, nav.enu a.enu, nav.ency a.ency, nav.vydane a.vydane, nav.kontakty a.kontakty, nav.doc a.doc {
   color:#979797 !important;
