@@ -983,4 +983,3 @@ adresa::before {
     content: attr(data-user) "\0040";
 }
 
-meno { font-weight: bold }
