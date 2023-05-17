@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>Internetová verzia Encyclopaedie Beliany</title>
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="javascripts/include_html.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="row">
+     <div w3-include-html="includes/header.html"></div>
+  </div>
+  
+  <div class="row">
+    <div class="twelve columns">
+      <div class="row">
+        <div class="three columns">
+          <div w3-include-html="includes/navigation.html" class="map"></div>
+        </div>
+        <div class="nine columns">
+	  <!-- zaciatok textu-->
+	  <h1>Mapa stránky</h1>
+	  <ul>
+		<li><a href="index.html" >O ústave</a></li>
+		<li><a href="publikacie.html" >Publikačná a prekladateľská činnosť</a></li>
+		<li><a href="vydane.html" >Diela vydané Encyklopedickým ústavom </a></li>
+		<li><a href="pracovnici.html" >Pracovníci ústavu</a></li>
+		<li><a href="enu-dokumenty.html" >Dokumenty</a></li>
+		<li><a href="kontakty.html" >Kontakty</a></li>
+		<li><a href="beliana-web.html" >Internetová verzia iEncyclopaedie Beliany</a></li>
+	</ul>
+	  <!-- koniec textu-->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns">
+      <div w3-include-html="includes/footer.html"></div>
+    </div>
+  </div>
+  <script> includeHTML(); </script>
+</body>
