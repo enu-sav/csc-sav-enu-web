@@ -663,6 +663,9 @@ ul.tabs-content.contained.vertical > li { border-width: 1px 1px 1px 1px; }
 div.home > .side-nav > li.home { background: #ffa587; border-color: #2284a1; }
 div.home > .side-nav > li.home > a { color: #000000; cursor: default; }
 div.home > .side-nav > li.home:hover { background: #ffa587; cursor: default; }
+div.oustave > .side-nav > li.oustave { background: #ffa587; border-color: #2284a1; }
+div.oustave > .side-nav > li.oustave > a { color: #000000; cursor: default; }
+div.oustave > .side-nav > li.oustave:hover { background: #ffa587; cursor: default; }
 div.web > .side-nav > li.web { background: #ffa587; border-color: #2284a1; }
 div.web > .side-nav > li.web > a { color: #000000; cursor: default; }
 div.web > .side-nav > li.web:hover { background: #ffa587; cursor: default; }
